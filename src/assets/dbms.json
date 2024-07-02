@@ -1,0 +1,388 @@
+[
+  {
+    "question": "What is a Database Management System (DBMS)?",
+    "options": [
+      "A collection of interrelated data and a set of programs to access those data",
+      "A type of computer hardware",
+      "A set of programs to manage network resources",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "A Database Management System (DBMS) is a collection of interrelated data and a set of programs to access those data, providing an efficient way to store, retrieve, and manage data."
+  },
+  {
+    "question": "Which of the following is an example of a DBMS?",
+    "options": ["MySQL", "Oracle", "Microsoft SQL Server", "All of the above"],
+    "correct": 3,
+    "detailedAnswer": "MySQL, Oracle, and Microsoft SQL Server are all examples of popular Database Management Systems."
+  },
+  {
+    "question": "What is the primary key in a database?",
+    "options": [
+      "A unique identifier for each record in a table",
+      "A key used to encrypt data",
+      "A key that allows for fast data retrieval",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "The primary key is a unique identifier for each record in a table, ensuring that no two records have the same key value."
+  },
+  {
+    "question": "What is a foreign key?",
+    "options": [
+      "A key used to link two tables together",
+      "A key that allows for fast data retrieval",
+      "A key used to encrypt data",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "A foreign key is a key used to link two tables together, establishing a relationship between the tables by referencing the primary key of another table."
+  },
+  {
+    "question": "What is normalization in DBMS?",
+    "options": [
+      "A process to minimize redundancy and dependency by organizing fields and table of a database",
+      "A method to create indexes",
+      "A technique to improve query performance",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "Normalization is the process of organizing the fields and tables of a database to minimize redundancy and dependency, improving data integrity."
+  },
+  {
+    "question": "What is SQL?",
+    "options": [
+      "Structured Query Language",
+      "Simple Query Language",
+      "Structured Question Language",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "SQL stands for Structured Query Language, which is used to communicate with and manage databases."
+  },
+  {
+    "question": "Which of the following SQL commands is used to retrieve data from a database?",
+    "options": ["SELECT", "INSERT", "UPDATE", "DELETE"],
+    "correct": 0,
+    "detailedAnswer": "The SELECT statement is used to retrieve data from a database."
+  },
+  {
+    "question": "What is a join in SQL?",
+    "options": [
+      "A SQL operation to combine rows from two or more tables based on a related column between them",
+      "A SQL operation to add a new row to a table",
+      "A SQL operation to update existing data in a table",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "A join is a SQL operation used to combine rows from two or more tables based on a related column between them."
+  },
+  {
+    "question": "What is a transaction in DBMS?",
+    "options": [
+      "A sequence of database operations that are treated as a single logical unit of work",
+      "A method to backup data",
+      "A type of index",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "A transaction is a sequence of database operations that are treated as a single logical unit of work, ensuring data integrity and consistency."
+  },
+  {
+    "question": "What does ACID stand for in the context of database transactions?",
+    "options": [
+      "Atomicity, Consistency, Isolation, Durability",
+      "Availability, Consistency, Integrity, Durability",
+      "Atomicity, Consistency, Integrity, Durability",
+      "Availability, Consistency, Isolation, Durability"
+    ],
+    "correct": 0,
+    "detailedAnswer": "ACID stands for Atomicity, Consistency, Isolation, and Durability, which are properties that ensure reliable processing of database transactions."
+  },
+  {
+    "question": "What is a stored procedure?",
+    "options": [
+      "A set of SQL statements that can be stored and executed on the database server",
+      "A method to backup data",
+      "A type of index",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "A stored procedure is a set of SQL statements that can be stored and executed on the database server, allowing for reusable and efficient database operations."
+  },
+  {
+    "question": "What is an index in DBMS?",
+    "options": [
+      "A data structure that improves the speed of data retrieval operations",
+      "A unique identifier for each record",
+      "A method to backup data",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "An index is a data structure that improves the speed of data retrieval operations on a database table, enhancing query performance."
+  },
+  {
+    "question": "What is a view in SQL?",
+    "options": [
+      "A virtual table based on the result-set of an SQL statement",
+      "A physical table stored in the database",
+      "A backup of the database",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "A view is a virtual table based on the result-set of an SQL statement, allowing users to simplify complex queries and enhance security by restricting access to specific data."
+  },
+  {
+    "question": "What is a unique key?",
+    "options": [
+      "A constraint that ensures all values in a column are unique",
+      "A key that allows for fast data retrieval",
+      "A key used to link two tables together",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "A unique key is a constraint that ensures all values in a column are unique, preventing duplicate values and maintaining data integrity."
+  },
+  {
+    "question": "What is a candidate key?",
+    "options": [
+      "A set of attributes that uniquely identify a record in a table",
+      "A key that allows for fast data retrieval",
+      "A key used to link two tables together",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "A candidate key is a set of attributes that uniquely identify a record in a table, from which the primary key is selected."
+  },
+  {
+    "question": "What is a composite key?",
+    "options": [
+      "A key that consists of two or more attributes that uniquely identify a record in a table",
+      "A key used to link two tables together",
+      "A key used to encrypt data",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "A composite key consists of two or more attributes that uniquely identify a record in a table, providing a unique combination of values."
+  },
+  {
+    "question": "What is a surrogate key?",
+    "options": [
+      "A unique identifier for each record that is not derived from application data",
+      "A key that allows for fast data retrieval",
+      "A key used to link two tables together",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "A surrogate key is a unique identifier for each record that is not derived from application data, often an auto-incremented integer."
+  },
+  {
+    "question": "What is denormalization?",
+    "options": [
+      "A process of introducing redundancy into a database by combining tables",
+      "A method to create indexes",
+      "A technique to improve query performance",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "Denormalization is the process of introducing redundancy into a database by combining tables, often done to improve query performance at the cost of data redundancy."
+  },
+  {
+    "question": "What is a subquery in SQL?",
+    "options": [
+      "A query nested inside another query",
+      "A method to create indexes",
+      "A technique to improve query performance",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "A subquery is a query nested inside another query, allowing for more complex queries by using the result of the inner query in the outer query."
+  },
+  {
+    "question": "What is the purpose of the GROUP BY clause in SQL?",
+    "options": [
+      "To group rows that have the same values in specified columns into summary rows",
+      "To filter the rows returned by a query",
+      "To sort the rows returned by a query",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "The GROUP BY clause groups rows that have the same values in specified columns into summary rows, often used with aggregate functions like COUNT, SUM, AVG, etc."
+  },
+  {
+    "question": "What is the purpose of the HAVING clause in SQL?",
+    "options": [
+      "To filter groups of rows based on a specified condition",
+      "To filter the rows returned by a query",
+      "To sort the rows returned by a query",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "The HAVING clause is used to filter groups of rows based on a specified condition, often used in conjunction with the GROUP BY clause."
+  },
+  {
+    "question": "What is a trigger in DBMS?",
+    "options": [
+      "A set of actions executed automatically in response to certain events on a particular table or view",
+      "A method to backup data",
+      "A type of index",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "A trigger is a set of actions executed automatically in response to certain events on a particular table or view, such as INSERT, UPDATE, or DELETE."
+  },
+  {
+    "question": "What is the difference between DELETE and TRUNCATE commands in SQL?",
+    "options": [
+      "DELETE removes rows one at a time and logs each deletion, while TRUNCATE removes all rows without logging individual deletions",
+      "DELETE is faster than TRUNCATE",
+      "TRUNCATE removes rows one at a time and logs each deletion, while DELETE removes all rows without logging individual deletions",
+      "There is no difference"
+    ],
+    "correct": 0,
+    "detailedAnswer": "DELETE removes rows one at a time and logs each deletion, allowing for row-by-row removal with conditions, while TRUNCATE removes all rows without logging individual deletions and resets any auto-increment counters."
+  },
+  {
+    "question": "What is the difference between a primary key and a unique key?",
+    "options": [
+      "A primary key uniquely identifies each record and does not allow NULL values, while a unique key also ensures unique values but allows NULLs",
+      "A primary key allows NULL values, while a unique key does not",
+      "There is no difference",
+      "Both are the same"
+    ],
+    "correct": 0,
+    "detailedAnswer": "A primary key uniquely identifies each record and does not allow NULL values, while a unique key also ensures unique values but can allow NULLs."
+  },
+  {
+    "question": "What is the purpose of the UNION operator in SQL?",
+    "options": [
+      "To combine the results of two or more SELECT statements into a single result set",
+      "To find the intersection of two sets",
+      "To subtract one set from another",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "The UNION operator is used to combine the results of two or more SELECT statements into a single result set, removing duplicate rows."
+  },
+  {
+    "question": "What is a cursor in SQL?",
+    "options": [
+      "A database object used to retrieve, manipulate, and navigate through a result set row by row",
+      "A method to create indexes",
+      "A technique to improve query performance",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "A cursor is a database object used to retrieve, manipulate, and navigate through a result set row by row, allowing for more complex data processing."
+  },
+  {
+    "question": "What is referential integrity?",
+    "options": [
+      "A property that ensures that relationships between tables remain consistent",
+      "A method to create indexes",
+      "A technique to improve query performance",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "Referential integrity is a property that ensures that relationships between tables remain consistent, typically enforced through foreign keys."
+  },
+  {
+    "question": "What is a clustered index?",
+    "options": [
+      "An index that sorts and stores the data rows of the table or view in order based on the index key",
+      "An index that does not alter the physical order of the data",
+      "An index used for full-text search",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "A clustered index sorts and stores the data rows of the table or view in order based on the index key, determining the physical order of the data."
+  },
+  {
+    "question": "What is a non-clustered index?",
+    "options": [
+      "An index that does not alter the physical order of the data",
+      "An index that sorts and stores the data rows of the table or view in order based on the index key",
+      "An index used for full-text search",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "A non-clustered index does not alter the physical order of the data, creating a logical ordering of data that can be different from the physical storage."
+  },
+  {
+    "question": "What is the purpose of the ALTER command in SQL?",
+    "options": [
+      "To modify the structure of an existing database object, such as a table",
+      "To retrieve data from a database",
+      "To delete data from a database",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "The ALTER command is used to modify the structure of an existing database object, such as adding or dropping columns in a table."
+  },
+  {
+    "question": "What is a schema in a database?",
+    "options": [
+      "A logical container for database objects, such as tables, views, and procedures",
+      "A physical storage space for data",
+      "A set of SQL statements",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "A schema is a logical container for database objects, such as tables, views, and procedures, providing a way to group and organize these objects."
+  },
+  {
+    "question": "What is the purpose of the CREATE command in SQL?",
+    "options": [
+      "To create new database objects, such as tables, views, and procedures",
+      "To retrieve data from a database",
+      "To delete data from a database",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "The CREATE command is used to create new database objects, such as tables, views, and procedures, defining their structure and properties."
+  },
+  {
+    "question": "What is the difference between the WHERE and HAVING clauses in SQL?",
+    "options": [
+      "The WHERE clause filters rows before grouping, while the HAVING clause filters groups after grouping",
+      "The HAVING clause filters rows before grouping, while the WHERE clause filters groups after grouping",
+      "There is no difference",
+      "Both are the same"
+    ],
+    "correct": 0,
+    "detailedAnswer": "The WHERE clause filters rows before grouping them, while the HAVING clause filters groups after the grouping operation has been performed."
+  },
+  {
+    "question": "What is a database transaction?",
+    "options": [
+      "A sequence of operations performed as a single logical unit of work",
+      "A method to backup data",
+      "A type of index",
+      "None of the above"
+    ],
+    "correct": 0,
+    "detailedAnswer": "A database transaction is a sequence of operations performed as a single logical unit of work, ensuring data integrity and consistency."
+  },
+  {
+    "question": "What is the difference between INNER JOIN and OUTER JOIN in SQL?",
+    "options": [
+      "INNER JOIN returns only the rows that have matching values in both tables, while OUTER JOIN returns all rows from one table and matching rows from the other",
+      "OUTER JOIN returns only the rows that have matching values in both tables, while INNER JOIN returns all rows from one table and matching rows from the other",
+      "There is no difference",
+      "Both are the same"
+    ],
+    "correct": 0,
+    "detailedAnswer": "INNER JOIN returns only the rows that have matching values in both tables, while OUTER JOIN returns all rows from one table and matching rows from the other, including non-matching rows with NULL values."
+  },
+  {
+    "question": "What is the difference between UNION and UNION ALL in SQL?",
+    "options": [
+      "UNION removes duplicate rows from the result set, while UNION ALL includes all rows, including duplicates",
+      "UNION includes all rows, including duplicates, while UNION ALL removes duplicate rows",
+      "There is no difference",
+      "Both are the same"
+    ],
+    "correct": 0,
+    "detailedAnswer": "UNION removes duplicate rows from the result set, while UNION ALL includes all rows from the result sets, including duplicates."
+  }
+]

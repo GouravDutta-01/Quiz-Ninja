@@ -1,0 +1,542 @@
+[
+    {
+      "question": "What is an operating system?",
+      "options": [
+        "A collection of software that manages computer hardware resources",
+        "A programming language",
+        "A type of hardware",
+        "A web browser"
+      ],
+      "correct": 0,
+      "detailedAnswer": "An operating system is a collection of software that manages computer hardware resources and provides common services for computer programs."
+    },
+    {
+      "question": "Which of the following is not an operating system?",
+      "options": [
+        "Windows",
+        "Linux",
+        "Oracle",
+        "MacOS"
+      ],
+      "correct": 2,
+      "detailedAnswer": "Oracle is not an operating system; it is a database management system. Windows, Linux, and MacOS are all operating systems."
+    },
+    {
+      "question": "What is a kernel in an operating system?",
+      "options": [
+        "The core part of an operating system",
+        "A type of software application",
+        "A type of user interface",
+        "A hardware component"
+      ],
+      "correct": 0,
+      "detailedAnswer": "The kernel is the core part of an operating system that manages system resources and communication between hardware and software components."
+    },
+    {
+      "question": "What is the purpose of a device driver?",
+      "options": [
+        "To manage memory allocation",
+        "To interface between the hardware and the operating system",
+        "To manage user input",
+        "To protect the system from malware"
+      ],
+      "correct": 1,
+      "detailedAnswer": "A device driver interfaces between the hardware and the operating system, allowing the OS to communicate with hardware devices."
+    },
+    {
+      "question": "What is virtual memory?",
+      "options": [
+        "Memory that appears to exist as main storage although most of it is supported by data held in secondary storage",
+        "Physical memory",
+        "A type of RAM",
+        "None of the above"
+      ],
+      "correct": 0,
+      "detailedAnswer": "Virtual memory is a memory management capability of an OS that makes an application believe it has contiguous working memory, while in fact it is fragmented and may even overflow on to disk storage."
+    },
+    {
+      "question": "What is a process in an operating system?",
+      "options": [
+        "A program in execution",
+        "A type of software",
+        "A memory management scheme",
+        "None of the above"
+      ],
+      "correct": 0,
+      "detailedAnswer": "A process is a program in execution, which includes the program code and its current activity."
+    },
+    {
+      "question": "Which of the following is a process state?",
+      "options": [
+        "Running",
+        "Stopped",
+        "Waiting",
+        "All of the above"
+      ],
+      "correct": 3,
+      "detailedAnswer": "Processes can be in various states such as Running, Stopped, and Waiting."
+    },
+    {
+      "question": "What is a thread?",
+      "options": [
+        "A lightweight process",
+        "A heavy weight process",
+        "A process running on a single core",
+        "None of the above"
+      ],
+      "correct": 0,
+      "detailedAnswer": "A thread is a lightweight process that shares resources with other threads in the same process."
+    },
+    {
+      "question": "What is context switching?",
+      "options": [
+        "Saving the state of an old process and loading the state of a new process",
+        "Changing from one programming language to another",
+        "Switching between different user interfaces",
+        "None of the above"
+      ],
+      "correct": 0,
+      "detailedAnswer": "Context switching involves saving the state of an old process and loading the state of a new process, enabling multitasking."
+    },
+    {
+      "question": "What is the role of the memory manager in an operating system?",
+      "options": [
+        "To manage the computer's memory",
+        "To manage CPU scheduling",
+        "To handle input/output operations",
+        "To manage the file system"
+      ],
+      "correct": 0,
+      "detailedAnswer": "The memory manager handles the allocation and deallocation of memory spaces as needed by various programs."
+    },
+    {
+      "question": "Which of the following is a type of operating system?",
+      "options": [
+        "Real-time operating system",
+        "Batch operating system",
+        "Distributed operating system",
+        "All of the above"
+      ],
+      "correct": 3,
+      "detailedAnswer": "Operating systems can be categorized into various types such as Real-time operating systems, Batch operating systems, and Distributed operating systems."
+    },
+    {
+      "question": "What is deadlock?",
+      "options": [
+        "A situation where processes are unable to proceed because each is waiting for the other to release resources",
+        "A type of error",
+        "A memory management scheme",
+        "None of the above"
+      ],
+      "correct": 0,
+      "detailedAnswer": "Deadlock is a situation where processes are unable to proceed because each is waiting for the other to release resources."
+    },
+    {
+      "question": "What is the purpose of a file system?",
+      "options": [
+        "To manage files and directories",
+        "To allocate memory",
+        "To manage process scheduling",
+        "To handle network communication"
+      ],
+      "correct": 0,
+      "detailedAnswer": "The file system manages files and directories, enabling users to store and retrieve data in an organized manner."
+    },
+    {
+      "question": "What is multitasking?",
+      "options": [
+        "Running multiple processes simultaneously",
+        "Running multiple threads in a single process",
+        "Switching between multiple programming languages",
+        "None of the above"
+      ],
+      "correct": 0,
+      "detailedAnswer": "Multitasking refers to the ability of an operating system to run multiple processes simultaneously."
+    },
+    {
+      "question": "What is a shell in an operating system?",
+      "options": [
+        "A command-line interpreter",
+        "A type of hardware",
+        "A software application",
+        "None of the above"
+      ],
+      "correct": 0,
+      "detailedAnswer": "A shell is a command-line interpreter that provides an interface for users to interact with the operating system."
+    },
+    {
+      "question": "What is paging?",
+      "options": [
+        "A memory management scheme that eliminates the need for contiguous allocation of physical memory",
+        "A process scheduling algorithm",
+        "A file system management technique",
+        "None of the above"
+      ],
+      "correct": 0,
+      "detailedAnswer": "Paging is a memory management scheme that eliminates the need for contiguous allocation of physical memory, by dividing memory into fixed-sized pages."
+    },
+    {
+      "question": "What is segmentation?",
+      "options": [
+        "A memory management scheme that supports user view of memory",
+        "A process scheduling algorithm",
+        "A file system management technique",
+        "None of the above"
+      ],
+      "correct": 0,
+      "detailedAnswer": "Segmentation is a memory management scheme that divides memory into variable-sized segments, which can be allocated and deallocated independently."
+    },
+    {
+      "question": "What is the purpose of an interrupt?",
+      "options": [
+        "To signal the processor that an event needs immediate attention",
+        "To allocate memory",
+        "To manage file systems",
+        "To perform context switching"
+      ],
+      "correct": 0,
+      "detailedAnswer": "An interrupt is a signal to the processor indicating that an event needs immediate attention, often used for handling I/O operations."
+    },
+    {
+      "question": "What is a semaphore?",
+      "options": [
+        "A synchronization primitive used to control access to a common resource",
+        "A type of memory management scheme",
+        "A file system structure",
+        "A network protocol"
+      ],
+      "correct": 0,
+      "detailedAnswer": "A semaphore is a synchronization primitive used to control access to a common resource in a concurrent system."
+    },
+    {
+      "question": "What is thrashing?",
+      "options": [
+        "A situation where the system spends most of its time swapping pages rather than executing instructions",
+        "A type of error",
+        "A scheduling algorithm",
+        "None of the above"
+      ],
+      "correct": 0,
+      "detailedAnswer": "Thrashing occurs when the system spends most of its time swapping pages in and out of memory rather than executing instructions, leading to reduced performance."
+    },
+    {
+      "question": "What is the main function of the command interpreter?",
+      "options": [
+        "To get and execute the next user-specified command",
+        "To manage memory allocation",
+        "To schedule processes",
+        "To handle interrupts"
+      ],
+      "correct": 0,
+      "detailedAnswer": "The command interpreter reads and executes user-specified commands, acting as an interface between the user and the operating system."
+    },
+    {
+      "question": "What is a bootloader?",
+      "options": [
+        "A program that loads the operating system into memory",
+        "A type of software application",
+        "A process scheduling algorithm",
+        "None of the above"
+      ],
+      "correct": 0,
+      "detailedAnswer": "A bootloader is a program that loads the operating system into memory when the computer is started."
+    },
+    {
+      "question": "What is spooling?",
+      "options": [
+        "A process in which data is temporarily held to be used and executed by a device, program, or system",
+        "A memory management technique",
+        "A process scheduling algorithm",
+        "None of the above"
+      ],
+      "correct": 0,
+      "detailedAnswer": "Spooling is a process in which data is temporarily held to be used and executed by a device, program, or system, often used for handling print jobs."
+    },
+    {
+      "question": "What is the main purpose of the BIOS?",
+      "options": [
+        "To initialize and test the system hardware components and load an operating system or other programs",
+        "To manage memory",
+        "To handle I/O operations",
+        "To manage file systems"
+      ],
+      "correct": 0,
+      "detailedAnswer": "The BIOS (Basic Input/Output System) initializes and tests the system hardware components and loads an operating system or other programs."
+    },
+    {
+      "question": "What is an API in the context of operating systems?",
+      "options": [
+        "A set of functions and procedures allowing the creation of applications that access features or data of an operating system",
+        "A type of user interface",
+        "A memory management scheme",
+        "None of the above"
+      ],
+      "correct": 0,
+      "detailedAnswer": "An API (Application Programming Interface) is a set of functions and procedures allowing the creation of applications that access features or data of an operating system."
+    },
+    {
+      "question": "What is the main purpose of process scheduling?",
+      "options": [
+        "To allocate CPU time to processes in a fair and efficient manner",
+        "To manage memory",
+        "To handle I/O operations",
+        "To manage file systems"
+      ],
+      "correct": 0,
+      "detailedAnswer": "Process scheduling allocates CPU time to processes in a fair and efficient manner, ensuring all processes get a chance to execute."
+    },
+    {
+      "question": "What is the difference between a logical address and a physical address?",
+      "options": [
+        "A logical address is generated by the CPU, while a physical address refers to a location in memory",
+        "A logical address is a type of memory management scheme",
+        "A physical address is generated by the CPU, while a logical address refers to a location in memory",
+        "There is no difference"
+      ],
+      "correct": 0,
+      "detailedAnswer": "A logical address is generated by the CPU during program execution, while a physical address refers to a location in memory."
+    },
+    {
+      "question": "What is a real-time operating system?",
+      "options": [
+        "An operating system that responds to inputs within a specific time frame",
+        "An operating system that handles multiple users",
+        "An operating system used for batch processing",
+        "None of the above"
+      ],
+      "correct": 0,
+      "detailedAnswer": "A real-time operating system is designed to respond to inputs within a specific time frame, making it suitable for time-critical applications."
+    },
+    {
+      "question": "What is the function of a cache in an operating system?",
+      "options": [
+        "To store frequently accessed data for faster retrieval",
+        "To manage memory allocation",
+        "To handle process scheduling",
+        "To manage file systems"
+      ],
+      "correct": 0,
+      "detailedAnswer": "A cache stores frequently accessed data for faster retrieval, improving the performance of the system."
+    },
+    {
+      "question": "What is the difference between a hard link and a soft link in a file system?",
+      "options": [
+        "A hard link points directly to the file data, while a soft link points to the file name",
+        "A soft link points directly to the file data, while a hard link points to the file name",
+        "Both point to the file data directly",
+        "Both point to the file name"
+      ],
+      "correct": 0,
+      "detailedAnswer": "A hard link points directly to the file data, making it indistinguishable from the original file, while a soft link (symbolic link) points to the file name and can cross file system boundaries."
+    },
+    {
+      "question": "What is the purpose of swap space in an operating system?",
+      "options": [
+        "To extend the physical memory by using disk space",
+        "To manage file systems",
+        "To handle process scheduling",
+        "To manage I/O operations"
+      ],
+      "correct": 0,
+      "detailedAnswer": "Swap space extends the physical memory by using disk space to hold inactive pages from the main memory, allowing the system to handle larger workloads."
+    },
+    {
+      "question": "What is the difference between monolithic and microkernel architecture?",
+      "options": [
+        "Monolithic architecture includes all operating system services in a single large block, while microkernel architecture separates basic services into small, independent modules",
+        "Microkernel architecture includes all operating system services in a single large block, while monolithic architecture separates basic services into small, independent modules",
+        "There is no difference",
+        "Both are the same"
+      ],
+      "correct": 0,
+      "detailedAnswer": "Monolithic architecture includes all operating system services in a single large block of code, while microkernel architecture separates basic services into small, independent modules to increase modularity and reliability."
+    },
+    {
+      "question": "What is a race condition?",
+      "options": [
+        "A situation where two or more processes attempt to change a shared resource simultaneously, leading to unexpected results",
+        "A type of error in memory management",
+        "A process scheduling algorithm",
+        "None of the above"
+      ],
+      "correct": 0,
+      "detailedAnswer": "A race condition occurs when two or more processes attempt to change a shared resource simultaneously, leading to unexpected and erroneous results."
+    },
+    {
+      "question": "What is the purpose of the 'ps' command in Unix/Linux?",
+      "options": [
+        "To display information about active processes",
+        "To manage file permissions",
+        "To change directories",
+        "To display disk usage"
+      ],
+      "correct": 0,
+      "detailedAnswer": "The 'ps' command displays information about active processes, including process IDs, CPU usage, and memory usage."
+    },
+    {
+      "question": "What is a system call?",
+      "options": [
+        "A mechanism that allows user-level processes to request services from the operating system",
+        "A type of inter-process communication",
+        "A method for file management",
+        "None of the above"
+      ],
+      "correct": 0,
+      "detailedAnswer": "A system call is a mechanism that allows user-level processes to request services and resources from the operating system's kernel."
+    },
+    {
+      "question": "What is the main purpose of the 'chmod' command in Unix/Linux?",
+      "options": [
+        "To change file permissions",
+        "To change directories",
+        "To display disk usage",
+        "To manage processes"
+      ],
+      "correct": 0,
+      "detailedAnswer": "The 'chmod' command is used to change the file permissions, allowing users to set who can read, write, or execute a file."
+    },
+    {
+      "question": "What is load balancing in the context of operating systems?",
+      "options": [
+        "Distributing work evenly across multiple processors or machines to optimize resource use",
+        "Managing file systems",
+        "Handling memory allocation",
+        "Managing I/O operations"
+      ],
+      "correct": 0,
+      "detailedAnswer": "Load balancing distributes work evenly across multiple processors or machines to optimize resource use, enhance performance, and avoid overload on any single resource."
+    },
+    {
+      "question": "What is the purpose of the 'df' command in Unix/Linux?",
+      "options": [
+        "To display the amount of disk space used and available on file systems",
+        "To manage file permissions",
+        "To change directories",
+        "To display active processes"
+      ],
+      "correct": 0,
+      "detailedAnswer": "The 'df' command displays the amount of disk space used and available on mounted file systems."
+    },
+    {
+      "question": "What is the main purpose of the 'grep' command in Unix/Linux?",
+      "options": [
+        "To search for patterns within files",
+        "To manage file permissions",
+        "To change directories",
+        "To display disk usage"
+      ],
+      "correct": 0,
+      "detailedAnswer": "The 'grep' command searches for patterns within files, allowing users to filter text based on regular expressions."
+    },
+    {
+      "question": "What is the purpose of the 'top' command in Unix/Linux?",
+      "options": [
+        "To display real-time system summary information including active processes",
+        "To manage file permissions",
+        "To change directories",
+        "To display disk usage"
+      ],
+      "correct": 0,
+      "detailedAnswer": "The 'top' command displays a real-time summary of system information, including active processes, CPU and memory usage."
+    },
+    {
+      "question": "What is the main function of the 'kill' command in Unix/Linux?",
+      "options": [
+        "To terminate processes",
+        "To change file permissions",
+        "To display disk usage",
+        "To change directories"
+      ],
+      "correct": 0,
+      "detailedAnswer": "The 'kill' command is used to terminate processes by sending them a signal, typically used to stop unresponsive or unwanted processes."
+    },
+    {
+      "question": "What is the purpose of the 'ls' command in Unix/Linux?",
+      "options": [
+        "To list directory contents",
+        "To change file permissions",
+        "To display disk usage",
+        "To manage processes"
+      ],
+      "correct": 0,
+      "detailedAnswer": "The 'ls' command lists the contents of a directory, providing information about files and subdirectories."
+    },
+    {
+      "question": "What is the 'cron' daemon in Unix/Linux?",
+      "options": [
+        "A time-based job scheduler",
+        "A process management tool",
+        "A memory management tool",
+        "A file system manager"
+      ],
+      "correct": 0,
+      "detailedAnswer": "The 'cron' daemon is a time-based job scheduler that allows users to schedule jobs (commands or scripts) to run at specific times or intervals."
+    },
+    {
+      "question": "What is a daemon in Unix/Linux?",
+      "options": [
+        "A background process that runs continuously to handle periodic service requests",
+        "A type of file system",
+        "A memory management technique",
+        "None of the above"
+      ],
+      "correct": 0,
+      "detailedAnswer": "A daemon is a background process that runs continuously to handle periodic service requests or perform system tasks."
+    },
+    {
+      "question": "What is the main purpose of the 'mount' command in Unix/Linux?",
+      "options": [
+        "To attach a file system to the file system hierarchy at a specified mount point",
+        "To change file permissions",
+        "To display disk usage",
+        "To manage processes"
+      ],
+      "correct": 0,
+      "detailedAnswer": "The 'mount' command attaches a file system to the file system hierarchy at a specified mount point, making it accessible to the system."
+    },
+    {
+      "question": "What is the purpose of the 'umount' command in Unix/Linux?",
+      "options": [
+        "To detach a file system from the file system hierarchy",
+        "To change file permissions",
+        "To display disk usage",
+        "To manage processes"
+      ],
+      "correct": 0,
+      "detailedAnswer": "The 'umount' command detaches a file system from the file system hierarchy, making it inaccessible to the system."
+    },
+    {
+      "question": "What is a symbolic link in Unix/Linux?",
+      "options": [
+        "A file that contains a reference to another file or directory",
+        "A type of hard link",
+        "A memory management technique",
+        "None of the above"
+      ],
+      "correct": 0,
+      "detailedAnswer": "A symbolic link is a file that contains a reference to another file or directory, allowing for flexible file system navigation and management."
+    },
+    {
+      "question": "What is the main function of the 'tar' command in Unix/Linux?",
+      "options": [
+        "To create, maintain, modify, and extract files from a tar archive",
+        "To change file permissions",
+        "To display disk usage",
+        "To manage processes"
+      ],
+      "correct": 0,
+      "detailedAnswer": "The 'tar' command is used to create, maintain, modify, and extract files from a tar archive, often used for backup and distribution purposes."
+    },
+    {
+      "question": "What is the 'sudo' command in Unix/Linux?",
+      "options": [
+        "A command that allows a permitted user to execute a command as the superuser or another user",
+        "A command to manage file permissions",
+        "A command to display disk usage",
+        "A command to change directories"
+      ],
+      "correct": 0,
+      "detailedAnswer": "The 'sudo' command allows a permitted user to execute a command as the superuser or another user, granting elevated privileges for administrative tasks."
+    }
+  ]
+  
