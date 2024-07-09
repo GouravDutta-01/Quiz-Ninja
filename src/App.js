@@ -1,5 +1,4 @@
-
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './index.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
@@ -9,22 +8,22 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
-  const [mode, setMode] = useState('light');
+  const [mode, setMode] = useState(localStorage.getItem('mode') || 'light');
+
+  useEffect(() => {
+    document.body.style.backgroundColor = mode === 'dark' ? '#181D1F' : 'white';
+  }, [mode]);
 
   const notify = (message) => {
     toast.success(message);
   };
 
   const toggleMode = () => {
-    if (mode !== 'dark') {
-      setMode('dark');
-      document.body.style.backgroundColor = '#181D1F';
-      notify('Dark mode has been enabled!');
-    } else {
-      setMode('light');
-      document.body.style.backgroundColor = 'white';
-      notify('Light mode has been enabled!');
-    }
+    const newMode = mode === 'dark' ? 'light' : 'dark';
+    setMode(newMode);
+    localStorage.setItem('mode', newMode);
+    document.body.style.backgroundColor = newMode === 'dark' ? '#181D1F' : 'white';
+    notify(`${newMode.charAt(0).toUpperCase() + newMode.slice(1)} mode has been enabled!`);
   };
 
   return (

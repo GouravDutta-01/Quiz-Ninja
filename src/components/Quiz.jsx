@@ -50,7 +50,7 @@ const Quiz = ({ mode }) => {
           key={qIndex}
         >
           <div className="card-body">
-            <h5 className="card-title">{question.question}</h5>
+            <h5 className="card-title">Question {qIndex + 1}: {question.question}</h5>
             {question.options.map((option, oIndex) => (
               <div key={oIndex} className="form-check">
                 <input
